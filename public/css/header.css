@@ -1,0 +1,9 @@
+li {
+    transition: background-color 3s ease-in;
+}
+
+li:hover,
+li:focus {
+    cursor: pointer;
+    background-color: var(--palette-color-first);
+}

@@ -1,0 +1,54 @@
+@import "./fonts_styles.css";
+@import "./reset.css";
+@import "./responsive.css";
+
+.bg-first {
+    background-color: var(--palette-color-first);
+}
+
+.bg-second {
+    background-color: var(--palette-color-second);
+}
+
+.bg-third {
+    background-color: var(--palette-color-third);
+}
+
+.bg-fourth {
+    background-color: var(--palette-color-fourth);
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    height: clamp(100px, 2.5vh, 150px);
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+nav ul {
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li i {
+    margin: 0.2em 0 0 0.8em;
+}
+
+main {
+    flex-grow: 1;
+}
