@@ -1,0 +1,16 @@
+{
+  "name": "pastelesdiaz",
+  "version": "1.0.0",
+  "description": "Proyecto Personal - Tienda de Pasteles",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Tarrias Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
